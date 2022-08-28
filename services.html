@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Shashi web developer, Programmer </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+
+    
+</head>
+<body class="">
+<div class="container">
+    <div class="sidebar">
+    
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="/"> Home</a>
+                </li>
+                <li>
+                    <a href="intro.html"> My Intro</a>
+                </li>
+                <li>
+                      <a href="services.html"> Services </a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main"><div class="infocontainer">
+        <div class="devinfo">
+            <div class="hello" id="flip">My Projects</div>
+            <div class="name" id="panel">HTML CSS Bootsstrap PHP, MySQl
+                <div class="about">Work that i have done in Past</div>
+                
+            <div class="moreabt">User would create his accounts with Uname and Password.
+                It will be saved in database using PHP and MySQl. </div>
+                <div class="project"><img src="img/l..jpg" alt="" srcset=""></div>
+            </div>
+        </div>
+
+        
+        <div class="devpic"><img src="img/t1.png" alt="Shashi Singh" srcset=""></div>
+</div>
+</div>
+</div>
+</body>
+</html>
